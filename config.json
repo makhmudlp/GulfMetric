@@ -1,0 +1,7 @@
+{
+  "ckpt": "Ruicheng/moge-2-vitl",
+  "ransac_thresh_m": 0.2,
+  "h_true": 1.65,
+  "gpu": "Tesla T4, 15360 MiB",
+  "peak_gpu_mem_GB": 2.38
+}

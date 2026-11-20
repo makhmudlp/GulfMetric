@@ -1,0 +1,18 @@
+# data (KITTI is not redistributed; download it, see README)
+kitti/
+depth_selection/
+*.zip
+*.npz
+# python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.brf
+*.synctex.gz
+# macOS
+.DS_Store
