@@ -1,0 +1,3 @@
+variant,rejected images,AbsRel,RMSE (m),delta<1.25 (%),AbsRel change vs (a) (%)
+(c) + GSC + sanity check,8,0.0965,2.9649,92.8959,-56.5228
+(d) full + sanity check,7,0.122,3.9455,82.8563,-45.0313

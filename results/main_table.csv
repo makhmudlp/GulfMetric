@@ -1,0 +1,7 @@
+variant,AbsRel,RMSE (m),delta<1.25 (%),AbsRel change vs (a) (%)
+(a) baseline MoGe-2,0.2219,4.6164,39.6005,0.0
+(b) + true focal length,0.1332,3.8638,86.0391,-39.9934
+(c) + GSC,0.1192,3.2377,92.3776,-46.2781
+(d) true focal + GSC (ours),0.1481,4.2426,82.1403,-33.2779
+"(d') full, least-squares plane",0.413,7.7033,51.0494,86.0913
+oracle median scaling (uses GT),0.0549,2.5776,97.3756,-75.2689

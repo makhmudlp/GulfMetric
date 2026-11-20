@@ -1,0 +1,2 @@
+test images,GPU,MoGe-2 ms/img (auto focal),MoGe-2 ms/img (true focal),GSC ms/img,peak GPU memory (GB),GSC fallback (%),mean scale s (d),mean oracle scale
+900,"Tesla T4, 15360 MiB",441.98,379.416,36.326,2.38,0.0,1.093,1.291
