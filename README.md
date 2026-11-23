@@ -52,7 +52,8 @@ report/                               LaTeX source of the report (CVPR template)
    - Cells 1–5: setup and functions, ~5 min including the MoGe-2 install and weight download.
    - Cell 6: chooses the RANSAC threshold on the 100 dev images, ~5 min.
    - Cell 7: main run on the 900 test images, ~51 min on a T4. **Resume-safe:** after a disconnect, rerun cells 1–5 and 7.
-   - Cells 8–12: tables, plausibility check, figures, failure cases, demo.
+   - Cells 8–12: tables, plausibility check, figures, failure cases, Figure 3.
+   - **Live demo (last cell):** run cells 1–5, then only the last cell. It compares baseline (a) and GSC (c) on a typical and a failure test image, in under a minute.
 4. Outputs are written to `GulfMetric/results/` in Google Drive.
 
 **Settings:**
