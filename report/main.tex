@@ -175,8 +175,11 @@ ground truth, an upper bound for any global-scale correction.
 \label{sec:setup}
 
 \paragraph{Dataset and split.}
-Our proposal planned a new set of UAE phone photos with laser-measured distances. In direct sunlight
-the laser dot was not visible, so the measurements were unreliable, and we moved to a public benchmark.
+Our proposal planned a new set of UAE phone photos with laser-measured distances. Following the
+proposal feedback, we confirmed access to a laser meter, wrote a collection and point-annotation
+protocol with a minimum of 50 photos, and prepared a notebook-only fallback on a public benchmark.
+In direct sunlight the laser dot was not visible, so the measurements were unreliable, and we used
+the fallback.
 We use the KITTI depth ``selected validation'' set~\cite{geiger2012kitti,uhrig2017sparsity}: 1000
 images ($1216\times352$), each with LiDAR ground-truth depth and camera
 intrinsics. File names are sorted alphabetically; the first 100 form a \emph{dev} split, used only to

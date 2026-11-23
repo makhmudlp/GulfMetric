@@ -74,6 +74,11 @@ report/                               LaTeX source of the report (CVPR template)
 - **Related method:** ground-plane scale recovery follows Song & Chandraker (CVPR 2014); see also GroCo (ECCV 2024).
 - **AI assistance:** an AI assistant (Claude, Anthropic) helped write code and draft documentation; all experiments were run and checked by the team.
 
-## Team
+## Team and contributions
 
-Makhmud · Mohamed Ibrahim Almehrzi · Abdalkarim Abumashayekh · Mohammed Hussein
+All four members contributed to the project idea, the proposal, the choice of KITTI and the method design, and reviewed the final report.
+
+- **Makhmud Kholmuminov:** GSC implementation, pipeline code and experiments, report writing
+- **Mohamed Ibrahim Almehrzi:** related-work survey, presentation slides and demo
+- **Abdalkarim Abumashayekh:** dataset setup and reproduction instructions, README, reference verification
+- **Mohammed Hussein:** verification of all reported numbers against the result files, figure review, proofreading
